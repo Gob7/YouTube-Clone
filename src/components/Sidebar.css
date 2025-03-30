@@ -1,0 +1,37 @@
+.dark-mode {
+  --sidebar-bg: #212121;
+}
+
+.light-mode {
+  --sidebar-bg: #f9f9f9;
+}
+
+aside {
+  background: var(--sidebar-bg);
+  top: 60px;
+  width: 200px;
+  padding: 20px 10px;
+  position: fixed;
+  height: calc(100vh - 60px);
+  overflow-y: auto;
+}
+
+aside nav {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+aside nav a:hover {
+  background-color: #e5e5e5;
+}
+
+aside nav a.active {
+  background-color: #e0e0e0;
+  font-weight: bold;
+}
+
+.sidebar nav a svg {
+  margin-right: 12px;
+  vertical-align: middle;
+}
