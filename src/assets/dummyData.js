@@ -86,20 +86,6 @@ export const videos = [
     duration: "4:30",
   },
   {
-    id: "DwFz6TlYkdk",
-    thumbnail: "https://i.ytimg.com/vi/DwFz6TlYkdk/hqdefault.jpg",
-    title: "Bad Guy",
-    channel: "Billie Eilish",
-    profilePic:
-      "https://yt3.googleusercontent.com/ytc/APkrFKYcYswt_UhD7D0j6ddiQz6Gb8Q2S5H7Q0R2mgW9=s176-c-k-c0x00ffffff-no-rj",
-    views: "1.5B",
-    postedTime: "4 years ago",
-    description: "Billie Eilish - bad guy",
-    likes: 28000000,
-    dislikes: 700000,
-    duration: "3:14",
-  },
-  {
     id: "4NRXx6U8ABQ",
     thumbnail: "https://i.ytimg.com/vi/4NRXx6U8ABQ/hqdefault.jpg",
     title: "Blinding Lights",
@@ -141,6 +127,48 @@ export const videos = [
     dislikes: 400000,
     duration: "2:21",
   },
+  {
+    id: "nfs8NYg7yQM",
+    thumbnail: "https://i.ytimg.com/vi/nfs8NYg7yQM/hqdefault.jpg",
+    title: "Attention",
+    channel: "Charlie Puth",
+    profilePic:
+      "https://yt3.googleusercontent.com/ytc/APkrFKZWeMCsx4Q9e_Hm6nhOOUQ3fv96QGUXiMr1-pPP=s176-c-k-c0x00ffffff-no-rj",
+    views: "1.8B",
+    postedTime: "6 years ago",
+    description: "Official video for Charlie Puth - Attention",
+    likes: 11000000,
+    dislikes: 300000,
+    duration: "3:30",
+  },
+  {
+    id: "DkeiKbqa02g",
+    thumbnail: "https://i.ytimg.com/vi/DkeiKbqa02g/hqdefault.jpg",
+    title: "One Kiss",
+    channel: "Dua Lipa",
+    profilePic:
+      "https://yt3.googleusercontent.com/ytc/APkrFKZWeMCsx4Q9e_Hm6nhOOUQ3fv96QGUXiMr1-pPP=s176-c-k-c0x00ffffff-no-rj",
+    views: "1.2B",
+    postedTime: "5 years ago",
+    description: "Official video for Dua Lipa - One Kiss (with Calvin Harris)",
+    likes: 9000000,
+    dislikes: 200000,
+    duration: "3:34",
+  },
+  {
+    id: "SlPhMPnQ58k",
+    thumbnail: "https://i.ytimg.com/vi/SlPhMPnQ58k/hqdefault.jpg",
+    title: "Memories",
+    channel: "Maroon 5",
+    profilePic:
+      "https://yt3.googleusercontent.com/ytc/APkrFKZWeMCsx4Q9e_Hm6nhOOUQ3fv96QGUXiMr1-pPP=s176-c-k-c0x00ffffff-no-rj",
+    views: "1.5B",
+    postedTime: "4 years ago",
+    description: "Official video for Maroon 5 - Memories",
+    likes: 10000000,
+    dislikes: 250000,
+    duration: "3:09",
+  },
 ];
 
 export const comments = [
@@ -165,7 +193,6 @@ export const comments = [
     text: "This defined a generation of music",
     profilePic: "https://randomuser.me/api/portraits/men/2.jpg",
   },
-
   {
     id: 4,
     videoId: "9bZkp7q19f0",
@@ -187,7 +214,6 @@ export const comments = [
     text: "First K-pop song I ever heard. Hooked since!",
     profilePic: "https://randomuser.me/api/portraits/women/3.jpg",
   },
-
   {
     id: 7,
     videoId: "JGwWNGJdvx8",
@@ -209,7 +235,6 @@ export const comments = [
     text: "The production quality is top-notch",
     profilePic: "https://randomuser.me/api/portraits/men/5.jpg",
   },
-
   {
     id: 10,
     videoId: "kJQP7kiw5Fk",
@@ -231,7 +256,6 @@ export const comments = [
     text: "The choreography is fire!",
     profilePic: "https://randomuser.me/api/portraits/women/6.jpg",
   },
-
   {
     id: 13,
     videoId: "RgKAFK5djSk",
@@ -253,7 +277,6 @@ export const comments = [
     text: "This song helps so many people heal",
     profilePic: "https://randomuser.me/api/portraits/men/8.jpg",
   },
-
   {
     id: 16,
     videoId: "OPf0YbXqDm0",
@@ -275,92 +298,130 @@ export const comments = [
     text: "This revived funk for a new generation",
     profilePic: "https://randomuser.me/api/portraits/women/9.jpg",
   },
-
   {
     id: 19,
-    videoId: "DwFz6TlYkdk",
-    user: "BillieStan",
-    text: "The bass drop changes lives",
-    profilePic: "https://randomuser.me/api/portraits/men/10.jpg",
-  },
-  {
-    id: 20,
-    videoId: "DwFz6TlYkdk",
-    user: "MusicProducer",
-    text: "The production is so unique",
-    profilePic: "https://randomuser.me/api/portraits/women/10.jpg",
-  },
-  {
-    id: 21,
-    videoId: "DwFz6TlYkdk",
-    user: "LyricAnalyst",
-    text: "The lyrics are deceptively deep",
-    profilePic: "https://randomuser.me/api/portraits/men/11.jpg",
-  },
-
-  {
-    id: 22,
     videoId: "4NRXx6U8ABQ",
     user: "WeekndFan",
     text: "The 80s vibe is perfect",
     profilePic: "https://randomuser.me/api/portraits/women/11.jpg",
   },
   {
-    id: 23,
+    id: 20,
     videoId: "4NRXx6U8ABQ",
     user: "SynthLover",
     text: "Those synths are everything!",
     profilePic: "https://randomuser.me/api/portraits/men/12.jpg",
   },
   {
-    id: 24,
+    id: 21,
     videoId: "4NRXx6U8ABQ",
     user: "MusicVideoBuff",
     text: "The cinematography is stunning",
     profilePic: "https://randomuser.me/api/portraits/women/12.jpg",
   },
-
   {
-    id: 25,
+    id: 22,
     videoId: "gdZLi9oWNZg",
     user: "ARMY",
     text: "BTS paved the way!",
     profilePic: "https://randomuser.me/api/portraits/men/13.jpg",
   },
   {
-    id: 26,
+    id: 23,
     videoId: "gdZLi9oWNZg",
     user: "DanceCrew",
     text: "We perform this at every competition!",
     profilePic: "https://randomuser.me/api/portraits/women/13.jpg",
   },
   {
-    id: 27,
+    id: 24,
     videoId: "gdZLi9oWNZg",
     user: "KpopExpert",
     text: "This changed the game for Kpop globally",
     profilePic: "https://randomuser.me/api/portraits/men/14.jpg",
   },
-
   {
-    id: 28,
+    id: 25,
     videoId: "kTJczUoc26U",
     user: "JBieberFan",
     text: "Justin's vocals are angelic here",
     profilePic: "https://randomuser.me/api/portraits/women/14.jpg",
   },
   {
-    id: 29,
+    id: 26,
     videoId: "kTJczUoc26U",
     user: "TikTokDancer",
     text: "This song went viral for a reason!",
     profilePic: "https://randomuser.me/api/portraits/men/15.jpg",
   },
   {
-    id: 30,
+    id: 27,
     videoId: "kTJczUoc26U",
     user: "SongWriter",
     text: "The hook is so catchy it hurts",
     profilePic: "https://randomuser.me/api/portraits/women/15.jpg",
+  },
+  {
+    id: 28,
+    videoId: "nfs8NYg7yQM",
+    user: "BassLover",
+    text: "That bassline is iconic! Charlie is a musical genius.",
+    profilePic: "https://randomuser.me/api/portraits/men/27.jpg",
+  },
+  {
+    id: 29,
+    videoId: "nfs8NYg7yQM",
+    user: "MusicStudent",
+    text: "The way he layers his vocals is textbook perfect production.",
+    profilePic: "https://randomuser.me/api/portraits/women/28.jpg",
+  },
+  {
+    id: 30,
+    videoId: "nfs8NYg7yQM",
+    user: "PopMusicFan",
+    text: "This was my summer anthem for 2 years straight! Never gets old.",
+    profilePic: "https://randomuser.me/api/portraits/men/28.jpg",
+  },
+  {
+    id: 31,
+    videoId: "DkeiKbqa02g",
+    user: "DanceFloorQueen",
+    text: "This song owns every club night! Impossible not to dance.",
+    profilePic: "https://randomuser.me/api/portraits/women/29.jpg",
+  },
+  {
+    id: 32,
+    videoId: "DkeiKbqa02g",
+    user: "RetroWaveFan",
+    text: "The 90s house vibes in this track are perfection!",
+    profilePic: "https://randomuser.me/api/portraits/men/29.jpg",
+  },
+  {
+    id: 33,
+    videoId: "DkeiKbqa02g",
+    user: "DuaStan",
+    text: "Dua's voice floats over this beat like magic!",
+    profilePic: "https://randomuser.me/api/portraits/women/30.jpg",
+  },
+  {
+    id: 34,
+    videoId: "SlPhMPnQ58k",
+    user: "WeddingDJ",
+    text: "Play this at every wedding - always gets people emotional.",
+    profilePic: "https://randomuser.me/api/portraits/men/30.jpg",
+  },
+  {
+    id: 35,
+    videoId: "SlPhMPnQ58k",
+    user: "Guitarist101",
+    text: "The acoustic version of this hits even harder! Beautiful melody.",
+    profilePic: "https://randomuser.me/api/portraits/women/31.jpg",
+  },
+  {
+    id: 36,
+    videoId: "SlPhMPnQ58k",
+    user: "AdamLevineFan",
+    text: "Adam's vocals on this track are some of his best work!",
+    profilePic: "https://randomuser.me/api/portraits/men/31.jpg",
   },
 ];

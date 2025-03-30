@@ -12,7 +12,7 @@ export default function VideoDetails() {
   const { id } = useParams();
   const { dark } = useTheme();
   const video = videos.find((v) => v.id === id);
-  const recommendations = videos.filter((v) => v.id !== id).slice(0, 9);
+  const recommendations = videos.filter((v) => v.id !== id).slice(0, 11);
   const videoComments = comments.filter((c) => c.videoId === id);
 
   const [like, setLike] = useState(false);
