@@ -1,6 +1,6 @@
 # YouTube Clone
 
-Detailed documentaion inside docs folder
+Detailed documentation inside docs folder
 
 Architecture.md -> Project Architecture
 
